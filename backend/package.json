@@ -1,0 +1,27 @@
+{
+  "name": "kickchatconnection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debaucus/KickChatConnection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Debaucus/KickChatConnection/issues"
+  },
+  "homepage": "https://github.com/Debaucus/KickChatConnection#readme",
+  "dependencies": {
+    "advanced-logs": "^2.1.3",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  }
+}
