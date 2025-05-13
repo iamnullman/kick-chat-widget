@@ -12,7 +12,7 @@ class KickBot extends EventEmitter {
   connect() {
     this.chatroomList.forEach((chatroomNumber) => {
       const chat = new WebSocket(
-        'wss://ws-us2.pusher.com/app/eb1d5f283081a78b932c?protocol=7&client=js&version=7.6.0&flash=false'
+        'wss://ws-us2.pusher.com/app/32cbd69e4b950bf97679?protocol=7&client=js&version=8.4.0-rc2&flash=false'
       );
 
       chat.on('open', () => {
